@@ -42,4 +42,35 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.wraper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wraper .left-block {
+  width: 400px;
+  height: 500px;
+  background-color: #F97458;
+  transition: all, 10s, linear, 1s;
+}
+
+.wraper .left-block:hover {
+  background-color: #F9588B;
+}
+
+.wraper .right-block {
+  width: 400px;
+  height: 500px;
+  background-color: #587DF9;
+  transition: all, 10s, linear, 1s;
+}
+
+.wraper .right-block:hover {
+  background-color: #AD58F9;
+}
+
+.wraper .title {
+  font-family: "Poppins";
+}
 /*# sourceMappingURL=global.css.map */
